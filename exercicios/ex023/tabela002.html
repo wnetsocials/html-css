@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightblue;
+        }
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgrey;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Uso de tabelas grandes
+    </h1>
+
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">ESTADO</th>
+                <th scope="col" style="width: 50px;">POPULACAO</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 433 957</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">TOTAL DE HABITANTES</th>
+                <td class="num">0000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam quidem laudantium exercitationem dolorem, dolor hic ut? Quidem corrupti dolorem impedit iure mollitia saepe nisi praesentium exercitationem natus, laboriosam autem quae!
+    </p>
+</body>
+</html>

@@ -18,11 +18,6 @@ Grandes telas: acima de 1200px
     * {
         font-family: 'Courier New', Courier, monospace;
     }
-    body {
-        /* É desnecessário porquê, as impressoras não imprimem
-        imagens de "background"
-        background-image: url(../imagens/back-print.jpg);*/
-    }
     main {
         width: 90vw;
         border: 2px solid black;

@@ -1,5 +1,19 @@
 @charset "UTF-8";
 
-@media screen and (min-width 768px) {
-    
+@media screen and (min-width: 768px) {
+    span#burguer {
+        display: none; /* o hamburguinho sumiu.*/
+    }
+
+    menu {
+        display: block; /* mostra o "menu". */
+    }
+
+    menu > ul > li {
+        display: inline-block; /* coloca o "menu" lado à lado, em linha. */
+    }
+
+    main {
+        width: 768px; /* mantém a largura do conteúdo */
+    }
 }
